@@ -12,14 +12,14 @@ with tab1:
     '''
     女子で新宿のカフェ ピース 14:30~
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/cafe.jpeg')
-    st.image(img,caption='ピース',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/cafe.jpeg')
+    #t.image(img,caption='ピース',use_column_width=True)
 
     '''
     みかん食べてitoして 16:00~
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/mikan.JPG')
-    st.image(img,caption='みかん',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/mikan.JPG')
+    #st.image(img,caption='みかん',use_column_width=True)
     '''
     ホテルはこのへん
     '''
@@ -32,30 +32,30 @@ with tab1:
     '''
     蛇さんこわい 21:00~
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/hebi.jpeg')
-    st.image(img,caption='へび！',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/hebi.jpeg')
+    #st.image(img,caption='へび！',use_column_width=True)
 
 with tab2:
     st.header("2日目 10/21(土)")
     '''
     川とかお散歩
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/kawa.jpeg')
-    st.image(img,caption='かわ！',use_column_width=True)
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/hasi.JPG')
-    st.image(img,caption='はし かわいい',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/kawa.jpeg')
+    #st.image(img,caption='かわ！',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/hasi.JPG')
+    #st.image(img,caption='はし かわいい',use_column_width=True)
 
     '''
     お昼
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/mesi.JPG')
-    st.image(img,caption='おいしそ',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/mesi.JPG')
+    #st.image(img,caption='おいしそ',use_column_width=True)
 
     '''
     大涌谷
     '''
-    img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/oowaku.JPG')
-    st.image(img,caption='みづきちゃん合成せねば',use_column_width=True)
+    #img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/oowaku.JPG')
+    #st.image(img,caption='みづきちゃん合成せねば',use_column_width=True)
 
     video_file = open('/Users/ayaka_py/Desktop/streamlit_1024/hakone/media/oowaku.mp4', 'rb')
     video_bytes = video_file.read()
