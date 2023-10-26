@@ -43,7 +43,7 @@ with tab2:
     img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/streamlit_prac/media/kawa.jpeg')
     st.image(img,caption='かわ！',use_column_width=True)
     img=Image.open('/Users/ayaka_py/Desktop/streamlit_1024/streamlit_prac/media/hasi.JPG')
-    st.image(img,caption='はしかわいい',use_column_width=True)
+    st.image(img,caption='はし かわいい',use_column_width=True)
 
     '''
     お昼
