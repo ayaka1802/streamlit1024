@@ -12,7 +12,7 @@ with tab1:
     '''
     女子で新宿のカフェ ピース 14:30~
     '''
-    img=Image.open('media/cafe.jpeg')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/cafe.jpeg?raw=true')
     st.image(img,caption='ピース',use_column_width=True)
 
     '''
