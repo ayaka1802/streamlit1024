@@ -7,7 +7,7 @@ st.title('米国株価可視化アプリ')
 
 st.sidebar.write('''
 # GAFA株価
-こちらは株価可視化ツールです。
+こちらはGAFA株価可視化ツールです。
 ''')
 
 st.sidebar.write('''
