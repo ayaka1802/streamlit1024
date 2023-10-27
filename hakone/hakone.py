@@ -12,13 +12,13 @@ with tab1:
     '''
     女子で新宿のカフェ ピース 14:30~
     '''
-    img=Image.open('media/cafe.jpeg')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/cafe.jpeg?raw=true')
     st.image(img,caption='ピース',use_column_width=True)
 
     '''
     みかん食べてitoして 16:00~
     '''
-    img=Image.open('media/mikan.JPG')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/mikan.JPG?raw=true')
     st.image(img,caption='みかん',use_column_width=True)
     '''
     ホテルはこのへん
@@ -32,7 +32,7 @@ with tab1:
     '''
     蛇さんこわい 21:00~
     '''
-    img=Image.open('media/hebi.jpeg')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/hebi.jpeg?raw=true')
     st.image(img,caption='へび！',use_column_width=True)
 
 with tab2:
@@ -40,24 +40,24 @@ with tab2:
     '''
     川とかお散歩
     '''
-    img=Image.open('media/kawa.jpeg')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/kawa.jpeg?raw=true')
     st.image(img,caption='かわ！',use_column_width=True)
-    img=Image.open('media/hasi.JPG')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/hasi.JPG?raw=true')
     st.image(img,caption='はし かわいい',use_column_width=True)
 
     '''
     お昼
     '''
-    img=Image.open('media/mesi.JPG')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/mesi.JPG?raw=true')
     st.image(img,caption='おいしそ',use_column_width=True)
 
     '''
     大涌谷
     '''
-    img=Image.open('media/oowaku.JPG')
+    img=Image.open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/oowaku.JPG?raw=true')
     st.image(img,caption='みづきちゃん合成せねば',use_column_width=True)
 
-    video_file = open('media/oowaku.mp4', 'rb')
+    video_file = open('https://github.com/ayaka1802/streamlit1024/blob/master/hakone/media/oowaku.mp4?raw=true', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
 
